@@ -5,12 +5,12 @@ class Animal {
 	
 	}
 
-	getspecies () {
+	species () {
 		return this.species;
 	}
 
 	makeSound(){
-		console.log('The ${this.species} makes a sound');
+		console.log('The ' + this.species + ' makes a sound');
 	}
 }
 
